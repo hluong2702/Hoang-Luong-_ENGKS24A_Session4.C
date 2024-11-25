@@ -3,7 +3,6 @@
 int main() {
     int ngay, thang, nam;
     
-    // Nhập ngày, tháng, năm
     printf("Nhap ngay: ");
     scanf("%d", &ngay);
     printf("Nhap thang: ");
