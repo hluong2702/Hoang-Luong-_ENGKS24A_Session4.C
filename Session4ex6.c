@@ -8,11 +8,6 @@ int main() {
     printf("Nhap chi so cong to dien o cuoi thang: ");
     scanf("%d", &moi);
 
-    if (moi < cu) {
-        printf("Chi so cong to moi khong hop le! Vui long kiem tra lai.\n");
-        return 1;
-    }
-
     int so_dien_tieu_thu = moi - cu;
 
     if (so_dien_tieu_thu <= 50) {
